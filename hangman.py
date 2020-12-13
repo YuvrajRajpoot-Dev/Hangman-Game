@@ -14,7 +14,9 @@ def hangman():
                 main = main + '_'+ ' '
         
         if main == word:
-            print('you win !',user_name)
+            print(f'you win !{user_name} you save life.')
+            print('correct word is :', word)
+
             break
 
         print(f'Try to find in {missed} attemps : {main}')

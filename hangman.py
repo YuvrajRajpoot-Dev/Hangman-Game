@@ -42,8 +42,8 @@ def hangman():
                 print('  /    ')
             if missed == 5:
                 print("-------")
-                print('   0   ')
-                print('   |   ')
+                print("   0   ")
+                print("   |   ")
                 print("  / \  ")
             if missed == 4:
                 print("-------")
@@ -75,6 +75,9 @@ def hangman():
 
 user_name = input('Enter your name :')
 print('Welcome ! To hangman Game ',user_name)
+print('------------------------------------------------')
+print('In the game you will get 10 attempts to guess the word, in each turn guess one alphabet(a to z)' )
+print()
 key = input('Press y to start game :')
 if key == 'y':
     hangman()
